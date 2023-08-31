@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%px;
+}
+#header {
+  display: flex;
+  justify-content: space-evenly;
+}
+#titleHeader {
+  font-size: large;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.title {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.paragraph {
+  color: rgb(152, 207, 255);
+  font-weight: bold;
+}
+
+#firstBookShow {
+  padding-bottom: 200%;
+}
+
+/* .book :first-child {
+  padding-bottom: 200%;
+} */
+
+#SideBar {
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+  top: 70%;
+  position: -webkit-sticky;
+}
+
+#headerButton {
+}
+#footer {
+  color: aliceblue;
+  font-size: large;
+}
+
+#books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  display: flex;
+}
